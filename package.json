@@ -1,14 +1,17 @@
 {
   "name": "qwen-test",
   "version": "1.0.0",
-  "description": "A test project",
+  "description": "Qwen Chat integration for Xiaomi Mi Pad 6S",
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": ["qwen", "chat", "ai"],
+  "author": "Dio-97",
   "license": "ISC",
-  "dependencies": {}
+  "dependencies": {
+    "axios": "^1.6.0",
+    "dotenv": "^16.0.0"
+  }
 }
